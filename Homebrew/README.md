@@ -20,3 +20,36 @@ Alternatively, we can also insert `/usr/local/bin` to the first line of `/privat
 Open an new terminal tab with **Cmd+T** (you should also close the old one), then run the following command to make sure everything works:
 
     $ brew doctor
+    
+    
+  brew install vim
+  brew install python
+  brew install pyenv
+  brew cask install java
+  brew install rbenv ruby-build rbenv-default-gems rbenv-gemset
+  echo 'bundler' >> "$(brew --prefix rbenv)/default-gems"
+  brew update
+  brew install node
+  brew install maven
+  brew install mysql
+  brew services start mysql
+  brew services stop mysql
+  brew services start mysql
+  brew install ack
+  brew install bash-completion
+  brew install htop
+  brew install tree
+  brew install wget
+  brew install vimpager
+  brew install ffmpeg
+  brew list
+  brew info vnstat
+  brew info lftp
+  brew info dark-mode
+  brew install dark-mode
+  brew install p7zip
+  brew info git-lfs
+  brew install z grc
+  source "`brew --prefix`/etc/grc.bashrc"
+  brew cask install xquartz
+  brew install wine  
